@@ -1,10 +1,29 @@
 body {
-    margin: 0;
+    margin: 0;  
 }
 
 .container {
     height: 1920px;
     background-image: url("./image/marten-bjork-Z2EgLCJob40-unsplash.jpg");
     background-size:cover;
-    z-index: -999;
+}
+
+.header {
+    display: flex;
+    border: 1px solid red;
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.header-btns {
+    display: flex;
+}
+
+.list-buttons {
+    
 }

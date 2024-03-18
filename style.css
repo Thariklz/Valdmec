@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 1920px;
+    background-image: url("./image/marten-bjork-Z2EgLCJob40-unsplash.jpg");
+    background-size:cover;
+    z-index: -999;
+}

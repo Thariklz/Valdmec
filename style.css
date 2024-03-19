@@ -42,20 +42,37 @@ body {
 }
 
 .body-class {
+    display: flex;
     border: 1px solid red;
-    width: 70%;
+    width: 70%; 
     margin-left: 15%; 
     margin-top: 15px;
 }
 
 .texto {
-    display: flex;
+    display: inline-block;
     width: 500px;
-    height: 300px;
+    height: 600px;
+    margin-top: 8%;
     border: 2px solid green;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 5px;
     color: #F4F4F4;
     font-size: x-large;
     align-items: center;
+}
+
+.body-btn {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    border: 2px solid rebeccapurple;
+}
+
+.img-body {
+    width: 700px;
+    background-image:url('./image/escavadeira.png');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    border: 1px solid yellow;
 }

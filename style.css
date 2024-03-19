@@ -21,9 +21,22 @@ body {
 }
 
 .header-btns {
-    display: flex;
+    display: inline-flex;
+    border: 1px solid green;
+    width: 400px;
+    justify-content: space-between;
+    margin-left: 52%;
 }
 
 .list-buttons {
-    
+    background: none;
+    font-family: "Bebas Neue", sans-serif;
+    border: none;
+    color: #FF7400;
+    font-size: larger;
+}
+
+.list-buttons:hover {
+    color: #F4F4F4;
+    cursor: pointer;
 }

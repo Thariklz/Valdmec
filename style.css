@@ -58,7 +58,7 @@ body {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 5px;
     color: #F4F4F4;
-    font-size: x-large;
+    font-size: xx-large;
     align-items: center;
 }
 
@@ -67,6 +67,26 @@ body {
     width: 500px;
     height: 300px;
     border: 2px solid rebeccapurple;
+}
+
+.btn-class {
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    background: #FF7400;
+    color:#F4F4F4;
+    font-weight: 100;
+    border: none;
+}
+
+.btn-class:hover {
+    cursor: pointer;
+    background: none;
+    border: 3px solid #FF7400;
+    color: #F4F4F4;
 }
 
 .img-body {

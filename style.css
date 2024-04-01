@@ -1,98 +1,159 @@
-body {
-    margin: 0;  
-}
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: "Bebas Neue", sans-serif;
+    }
 
-.container {
-    height: 1920px;
-    background-image: url("./image/marten-bjork-Z2EgLCJob40-unsplash.jpg");
-    background-size:cover;
-}
+    .container {
+        
+        height: 1250px;
+        display: flex;
+        justify-content: center;
+        background-image: url('./image/marten-bjork-Z2EgLCJob40-unsplash.jpg');
+        background-size: cover;           
+    }
 
-.header {
-    display: flex;
-    border: 1px solid red;
-    width: 70%;
-    margin-left: 15%;
-    padding: 10px;
-}
+    .container-body {
+        width: 70vw;    
+        height: 100%;
+        display: block;
+        position: absolute;
+      
+    }
 
-.logo {
-    height: 50px;
-}
+    .cabecalho {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        height: 100px;
+     
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.header-btns {
-    display: inline-flex;
-    border: 1px solid green;
+    
+
+    .logo {
+        height: 60px;
+        background-size: cover;
+    }
+
+    .links {
+        display: flex;
+       
+        justify-content: space-between;
+        width: 350px;
+    }
+
+    .link-a {
+        text-decoration: none;
+        font-size: x-large;
+        color: #FF7400;
+        letter-spacing: 2px;
+    }
+
+    .link-a:hover {
+        color: #F4F4F4
+    }
+
+    .banner {
+        width: 100%;
+    
+        position: relative;
+        top: 100px;  
+        display: flex;
+    }
+
+    .apresentacao {
+        margin-top: 50px;
+        display: block;
+        width: 35%;
+ 
+       padding: 15px;
+    }
+
+    
+    .apresentacao > h2{
+        margin-top: 50px;
+        color: #F4F4F4;
+        letter-spacing: 7px;
+        font-size: xxx-large;
+        
+    }
+    
+    .botao-apresentacao {
+        text-decoration: none;
+        border: none;
+        background: #FF7400;
+        color: #F4F4F4;
+        width: 200px;
+        letter-spacing: 4px;
+        font-size: xx-large;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .botao-apresentacao:hover {
+        background: none;
+ 
+        text-align: center;
+        height: 55px;
+        width: 220px;
+    }
+
+    .img-banner {
+       
+        width: 70%;
+    }
+
+    .img-banner > img {
+        margin-top: 30px;
+        background-size: cover;
+        position: relative;
+        top: 10%; left: 10%;
+        width: 90%;
+    }
+
+    .container-2 {
+        
+        width: 100%;
+    }
+
+    .sobre {
+         
+        display: flex;
+        margin-top: 530px;
+        height: 1000px;
+        min-width: 1280px;
+        width: 100%;
+        background-color: #FF7400;
+        border-radius: 85px;
+        align-items: center; 
+        justify-content: space-evenly;
+        
+    }
+
+   .foto-mecanico {
+        height: 600px;
+        background-size: cover;
+   }
+
+   .sobre-p  {
     width: 400px;
-    justify-content: space-between;
-    margin-left: 52%;
-}
-
-.list-buttons {
-    background: none;
-    font-family: "Bebas Neue", sans-serif;
-    border: none;
-    color: #FF7400;
-    font-size: larger;
-}
-
-.list-buttons:hover {
     color: #F4F4F4;
-    cursor: pointer;
-}
-
-.body-class {
-    display: flex;
-    border: 1px solid red;
-    width: 70%; 
-    margin-left: 15%; 
-    margin-top: 15px;
-}
-
-.texto {
-    display: inline-block;
-    width: 500px;
-    height: 600px;
-    margin-top: 8%;
-    border: 2px solid green;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 5px;
-    color: #F4F4F4;
-    font-size: xx-large;
-    align-items: center;
-}
-
-.body-btn {
-    display: inline-block;
-    width: 500px;
     height: 300px;
-    border: 2px solid rebeccapurple;
-}
+    margin-left: -120px;
+    font-size: large;
+    text-align: right;
+   }
 
-.btn-class {
-    width: 250px;
-    height: 60px;
-    margin-top: 30px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: xx-large;
+   .sobre-p > h1 {
     letter-spacing: 5px;
-    background: #FF7400;
-    color:#F4F4F4;
-    font-weight: 100;
-    border: none;
-}
+    margin-bottom: 30px;
+   }
 
-.btn-class:hover {
-    cursor: pointer;
-    background: none;
-    border: 3px solid #FF7400;
-    color: #F4F4F4;
-}
 
-.img-body {
-    width: 700px;
-    background-image:url('./image/escavadeira.png');
-    background-size: 110%;
-    background-repeat: no-repeat;
-    border: 1px solid yellow;
-}
+

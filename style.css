@@ -3,157 +3,100 @@
     margin:0;
     vertical-align:baseline;
     list-style:none;
-    border:0;
-    font-family: "Bebas Neue", sans-serif;
-    }
-
-    .container {
-        
-        height: 1250px;
-        display: flex;
-        justify-content: center;
-        background-image: url('./image/marten-bjork-Z2EgLCJob40-unsplash.jpg');
-        background-size: cover;           
-    }
-
-    .container-body {
-        width: 70vw;    
-        height: 100%;
-        display: block;
-        position: absolute;
-      
-    }
-
-    .cabecalho {
-        display: flex;
-        width: 100%;
-        position: absolute;
-        height: 100px;
-     
-        align-items: center;
-        justify-content: space-between;
-    }
-
     
+    font-family: "Bebas Neue", sans-serif;
+}
 
-    .logo {
-        height: 60px;
+:root {
+    --laranja: #FF7400;
+    --branco: #F4F4F4;
+    --cinza: #161616;
+}
+
+@media (max-width: 700px) {
+    .corpo {
+        background-image: url("./image/marten-bjork-Z2EgLCJob40-unsplash.jpg");
         background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .navegacao {
+        display: flex;
+        border:  1px solid red;
+        width: 100vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navegacao > img {
+        width: 100px;
     }
 
     .links {
         display: flex;
-       
+        border: 1px solid whitesmoke;
+        width: 40vw;
+        margin-left: 25%;
         justify-content: space-between;
-        width: 350px;
     }
 
-    .link-a {
-        text-decoration: none;
-        font-size: x-large;
-        color: #FF7400;
-        letter-spacing: 2px;
+    .links p a {
+        color: var(--laranja);
     }
 
-    .link-a:hover {
-        color: #F4F4F4
+    .links p a:hover {
+        color: var(--branco);
     }
-
-    .banner {
-        width: 100%;
     
-        position: relative;
-        top: 100px;  
-        display: flex;
-    }
-
     .apresentacao {
-        margin-top: 50px;
-        display: block;
-        width: 35%;
- 
-       padding: 15px;
+        border:  1px solid blue;
+        padding: 20px; 
     }
 
-    
-    .apresentacao > h2{
-        margin-top: 50px;
-        color: #F4F4F4;
-        letter-spacing: 7px;
-        font-size: xxx-large;
-        
-    }
-    
-    .botao-apresentacao {
-        text-decoration: none;
-        border: none;
-        background: #FF7400;
-        color: #F4F4F4;
-        width: 200px;
-        letter-spacing: 4px;
-        font-size: xx-large;
-        height: 50px;
-        margin-top: 50px;
+    .apresentacao h1 {
+        color: var(--branco);
+        margin-bottom: 15px; 
+        letter-spacing: 2px;
+        font-size: 4rem;       
     }
 
-    .botao-apresentacao:hover {
+    .apresentacao button {
+        width: 300px;
+        height: 40px;
+        font-size: 1.8rem;
         background: none;
- 
-        text-align: center;
-        height: 55px;
-        width: 220px;
+        border: 2px solid var(--laranja);
+        color: var(--branco);
+        letter-spacing: 2px;    
     }
 
-    .img-banner {
-       
-        width: 70%;
+    .apresentacao button:hover {
+        background: var(--laranja);
     }
 
-    .img-banner > img {
-        margin-top: 30px;
-        background-size: cover;
-        position: relative;
-        top: 10%; left: 10%;
-        width: 90%;
-    }
-
-    .container-2 {
-        
-        width: 100%;
+    .apresentacao img {
+        width: 200px;
     }
 
     .sobre {
-         
-        display: flex;
-        margin-top: 530px;
-        height: 1000px;
-        min-width: 1280px;
-        width: 100%;
-        background-color: #FF7400;
-        border-radius: 85px;
-        align-items: center; 
-        justify-content: space-evenly;
-        
+        width: 100vw;
+        height: 50vh;
+        display: block;
+        background-color: var(--laranja);
+        border-radius: 60px;
+        justify-content: center;
+        align-items: center;
     }
 
-   .foto-mecanico {
-        height: 600px;
-        background-size: cover;
-   }
-
-   .sobre-p  {
-    width: 400px;
-    color: #F4F4F4;
-    height: 300px;
-    margin-left: -120px;
-    font-size: large;
-    text-align: right;
-   }
-
-   .sobre-p > h1 {
-    letter-spacing: 5px;
-    margin-bottom: 30px;
-   }
+    .sobre h1, p {
+        margin-bottom: 15px;
+        position: relative;
+        top: 10%; left: 5%;
+        width: 400px;
+    }
 
 
-
+}
+    

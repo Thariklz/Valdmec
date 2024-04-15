@@ -25,7 +25,6 @@
         display: flex;
         border:  1px solid red;
         width: 100vw;
-        flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
     }
@@ -39,6 +38,7 @@
         border: 1px solid whitesmoke;
         width: 40vw;
         margin-left: 25%;
+        align-items: center;
         justify-content: space-between;
     }
 
@@ -93,7 +93,7 @@
     .sobre h1, p {
         margin-bottom: 15px;
         position: relative;
-        top: 10%; left: 5%;
+        top: 25%; left: 5%;
         width: 400px;
     }
 

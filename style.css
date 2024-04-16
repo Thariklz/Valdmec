@@ -25,7 +25,7 @@
         display: flex;
         border:  1px solid red;
         width: 100vw;
-        align-items: center;
+        align-content: center;
         justify-content: space-evenly;
     }
 
@@ -80,21 +80,34 @@
         width: 200px;
     }
 
+    .apresentacao img {
+        display: none;
+    }
+
     .sobre {
         width: 100vw;
         height: 50vh;
-        display: block;
         background-color: var(--laranja);
         border-radius: 60px;
+        align-content: center;
         justify-content: center;
-        align-items: center;
     }
 
     .sobre h1, p {
         margin-bottom: 15px;
-        position: relative;
-        top: 25%; left: 5%;
-        width: 400px;
+        text-align: left;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .sobre img {
+        display: none;
+    }
+
+    .carrocel {
+        width: 100vw;
+        height: 700px;
+        border: 2px solid red;
     }
 
 
